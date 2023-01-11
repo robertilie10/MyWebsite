@@ -1,0 +1,782 @@
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,255,0.4), rgba(0,0,255,0.4)),
+    url("../assets/tech.png");
+    background-size: contain;
+}
+
+#block{
+  margin: 0px;
+  height: 32vw;
+  background-image:linear-gradient(rgba(0,0,255,0.4), rgba(0,0,255,0.4)),
+  url("../assets/tech.png");
+  background-size: contain;
+}
+
+img{
+  width: 11.71vw;
+  display: block;
+  margin-left: auto;
+  margin-right: 43.5%;
+  margin-top: 1.8%;
+  border-radius: 50%;
+  animation: animate 1.5s linear infinite;
+  border: 0.3vw solid white;
+}
+
+.imga{
+  padding-top: 2%;
+}
+
+@keyframes animate {
+  50% {
+    transform: scale(90%);
+  }
+  0% {
+    transform: scale(100%);
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+.nav{
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 3.6vw;
+  margin: 0;
+  padding: 0;
+  background-color: #011188;
+  position: fixed;
+  top:0;
+  transition: top 0.3s;
+}
+
+.active {
+  float: left;
+  padding-left: 1%;
+  text-align: center;
+}
+
+
+.two{
+  float: right;
+}
+
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 1% 1%;
+  text-decoration: none;
+  width: 7%;
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: #1a73ec;
+}
+
+.about{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6vw;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.cont{
+  height: 48%;
+}
+
+.language{
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 3.25vw;
+  height: 3.25vw;
+  background-image: url("../assets/ro.png");
+  background-size: contain;
+  background-color: yellow;
+  border: 0.2vw solid white;
+  float: right;
+  margin-right: 3.2%;
+}
+
+.language_ro{
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 3.25vw;
+  height: 3.25vw;
+  background-image: url("../assets/usa.png");
+  background-size: contain;
+  background-color: yellow;
+  border: 0.2vw solid white;
+  float: right;
+  margin-right: 3.2%;
+}
+
+.fb{
+  border-radius: 50%;
+  width: 3.25vw;
+  height: 3.25vw;
+  background-image: url("../assets/Untitled-4.png");
+  border: 0.2vw solid white;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.insta{
+  border-radius: 50%;
+  width: 3.25vw;
+  height: 3.25vw;;
+  background-image: url("../assets/insta.png");
+  margin-left: 0.6vw;
+  margin-right: 0.6vw;
+  border: 0.2vw solid white;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.linkedin{
+  border-radius: 50%;
+  width: 3.25vw;
+  height: 3.25vw;
+  background-image: url("../assets/in.png");
+  border: 0.2vw solid white;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.app:hover{
+  -ms-transform: scale(1.30);
+  -webkit-transform: scale(1.30);
+  transform: scale(1.30);
+}
+
+.download{
+  text-decoration: none;
+  margin-top: 1vw;
+  height: 2.1vw;
+  width: 9vw;
+  background-color: #011188;
+  border: 0.2vw solid white;
+  color: white;
+  text-align: center;
+  padding-top: 0.8vw;
+  font-size: 1.3vw;
+}
+
+.dl{
+  text-decoration: none;
+}
+
+.download:hover{
+  background-color: #1644f0;
+}
+
+.container{
+  background-color: #8a90c2;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  border-top: 3vw solid #8a90c2;
+  border-bottom: 5vw solid #8a90c2;
+}
+
+.div1{
+  height: 32vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  margin-top: 3.25vw;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0.13vw 0.97vw;
+  background-image: url("../assets/me.png");
+  background-size: contain;
+}
+
+.div2{
+  height: 32vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  margin-top: 3.25vw;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0.13vw 0.97vw;
+  background-image: url("../assets/skill.png");
+  background-size: contain;
+}
+
+.div3{
+  height: 32vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  margin-top: 3.25vw;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0.13vw 0.97vw;
+  background-image: url("../assets/edu.png");
+  background-size: contain;
+}
+
+.div4{
+  height: 32vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  margin-top: 3.25vw;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0.13vw 0.97vw;
+  background-image: url("../assets/exp.png");
+  background-size: contain;
+}
+
+.div5{
+  height: 32vw;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+  margin-top: 3.25vw;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0.13vw 0.97vw;
+  background-image: url("../assets/port.png");
+  background-size: contain;
+}
+
+
+.titleAb{
+  padding-top: 2vw;
+  margin-bottom: 1.3vw;
+  font-size: 3.25vw;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.titleAbs{
+  padding-top: 2vw;
+  margin-bottom: 1vw;
+  font-size: 3.25vw;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.text{
+  padding-left: 1.95vw;
+  padding-right: 1.95vw;
+  font-size: 1.3vw;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.titleInfo{
+  margin-top: 0.65vw;
+  margin-bottom: 0.975vw;
+  font-size: 3vw;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.infos {
+  overflow: hidden;
+  margin-bottom: 2.6vw;
+  margin-top: 2.6vw;
+}
+
+.age{
+  padding-right: 11.8vw;
+  font-size: 1.5vw;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  float: right;
+}
+
+.ani{
+  padding-right: 12.7vw;
+  font-size: 1.5vw;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  float: right;
+}
+
+.email{
+  padding-left: 1.95vw;
+  font-size: 1.5vw;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  float:left;
+}
+
+.address{
+  padding-left: 1.95vw;
+  font-size: 1.5vw;
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  float:left;
+}
+
+.phone{
+  padding-right: 1.95vw;
+  font-size: 1.5vw;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  float: right;
+}
+
+.html{
+  width: 25%;
+}
+
+.skilluri{
+  overflow: hidden;
+  margin-left: 2.6vw;
+  margin-right: 2.6vw;
+  margin-top: 0vw;
+  margin-bottom: 4vw;
+}
+
+
+.empty {
+  width: 19.53vw;
+  height: 1.95vw;
+  border-radius: 0.32vw;
+  margin: 0vw;
+  border: 0.195vw solid rgb(189, 113, 113);
+  overflow: hidden;
+  position: relative;
+}
+
+.css{
+  float: right;
+}
+
+.html{
+  float: left;
+}
+
+.js{
+  float: left;
+}
+
+.py{
+  float: right;
+}
+
+.dj{
+  float: left;
+}
+
+.ph{
+  float: right;
+}
+
+.full-html span {
+  height: 2vw;
+  display: block;
+  width: 14.8vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  transition: transform 0.5s;
+  margin: auto;
+  background-color: blue;
+}
+
+.full-css span {
+  height: 2vw;
+  display: block;
+  width: 10vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  background-color: blue;
+}
+
+.full-js span {
+  height: 2vw;
+  display: block;
+  width: 4vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  background-color: blue;
+}
+
+
+.full-py span {
+  height: 2vw;
+  display: block;
+  width: 9vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  background-color: blue;
+}
+
+.full-dj span {
+  height: 2vw;
+  display: block;
+  width: 2vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  background-color: blue;
+}
+
+.full-ph span {
+  height: 2vw;
+  display: block;
+  width: 7.5vw;
+  color: rgb(255, 251, 251);
+  line-height: 1.95vw;
+  position: absolute;
+  text-align: end;
+  padding-right: 0.32vw;
+  border-radius: 0.32vw;
+  margin-left: 2vw;
+  background-color: blue;
+}
+
+.name1{
+  float: left;
+  padding-left: 7.48vw;
+  font-size: 1.62vw;
+}
+
+.name2{
+  float: right;
+  padding-right: 7.81vw;
+  font-size: 1.62vw;
+}
+
+.name3{
+  float: left;
+  padding-left: 5.98vw;
+  font-size: 1.62vw;
+}
+
+.name4{
+  float: right;
+  padding-right: 6.9vw;
+  font-size: 1.62vw;
+}
+
+.name5{
+  float: left;
+  padding-left: 7.09vw;
+  font-size: 1.62vw;
+}
+
+.name6{
+  float: right;
+  padding-right: 5.53vw;
+  font-size: 1.62vw;
+}
+
+.format{
+  font-family: Arial;
+  color: black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.058vw;
+}
+
+.name{
+  margin-bottom: 2vw;
+}
+
+.ed{
+  opacity: 1;
+  margin-top: 0vw;
+}
+
+
+.ed1{
+  float: left;
+  margin-top: 0.35vw;
+}
+
+.ed2{
+  float: right;
+  margin-top: 0.65vw;
+}
+
+.ed11{
+  margin-left: 3.9vw;
+  font-size: 2.08vw;
+  margin-top: 2vw;
+  margin-bottom: 5.9vw;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+.ed12{
+  margin-left: 3.9vw;
+  font-size: 2.08vw;
+  margin-top: 0vw;
+  margin-bottom: 2vw;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+.ed22{
+  margin-right: 2.6vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+  margin-left: 20vw;
+}
+
+.un{
+  padding-top: 2vw;
+}
+
+.un2{
+  padding-top: 1.4vw;
+}
+
+.ed22ro{
+  margin-right: 2.6vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+  margin-left: 20vw;
+}
+
+.unro{
+  padding-top: 2vw;
+}
+
+.un2ro{
+  padding-top: 1.4vw;
+}
+
+.ex{
+  margin-left: 2.6vw;
+  margin-right: 2.6vw;
+
+}
+
+.title{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 2vw;
+}
+
+.lorem{
+  font-size: 1.8vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.boxes{
+  height: 25vw;
+  width: 65.73vw;
+}
+
+.box1{
+  height: 19.83vw;
+  width: 18.53vw;
+  float: left;
+  background-image: url("../assets/tictac.png");
+  margin-top: 1.3vw;
+  margin-left: 2.3vw;
+  border: 0.325vw solid black;
+  border-radius: 30%;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.box2{
+  height: 19.83vw;
+  width: 18.53vw;
+  background-image: url("../assets/four.png");
+  float: left;
+  margin-top: 1.3vw;
+  margin-left: 0.65vw;
+  margin-right: 0.65vw;
+  border: 0.325vw solid black;
+  border-radius: 30%;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.box3{
+  height: 19.83vw;
+  width: 18.53vw;
+  float: left;
+  background-image: url("../assets/panda.png");
+  margin-top: 1.3vw;
+  margin-right: 2.3vw;
+  border: 0.325vw solid black;
+  border-radius: 30%;
+  transition: transform .2s;
+  background-size: contain;
+}
+
+.box3:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background-image: url("../assets/panda2.png");
+}
+
+.box2:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background-image: url("../assets/four2.png");
+}
+
+.box1:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background-image: url("../assets/tictac2.png");
+}
+
+.img1{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/738.png");
+  margin-top: 9.7vw;
+  margin-left: 13vw;
+  margin-right: 6.5vw;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  float: left;
+  background-size: contain;
+}
+
+.img2{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/11.png");
+  margin-top: 9.7vw;
+  margin-left: 6.5vw;
+  margin-right: 13vw;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  float: right;
+  background-size: contain;
+}
+
+.img3{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/739.png");
+  margin-top: 9.7vw;
+  margin-left: 13vw;
+  margin-right: 6.5vw;
+  float: left;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  background-size: contain;
+}
+
+.img4{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/740.png");
+  margin-top: 9.7vw;
+  margin-left: 6.5vw;
+  margin-right: 13vw;
+  float: right;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  background-size: contain;
+}
+
+.img5{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/1848.png");
+  margin-top: 9.7vw;
+  margin-left: 13vw;
+  margin-right: 6.5vw;
+  float: left;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  background-size: contain;
+}
+
+.img6{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/belgium.png");
+  margin-top: 9.7vw;
+  margin-left: 6.5vw;
+  margin-right: 13vw;
+  float: right;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  background-size: contain;
+}
+
+.img7{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/dao.png");
+  margin-top: 9.7vw;
+  margin-left: 13vw;
+  margin-right: 6.5vw;
+  margin-bottom: 15vw;
+  float: left;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+  background-size: contain;
+}
+
+.img8{
+  width: 26vw;
+  height: 26vw;
+  background-image: url("../assets/LKMEX.png");
+  margin-top: 9.7vw;
+  margin-left: 6.5vw;
+  margin-right: 13vw;
+  margin-bottom: 15vw;
+  float: right;
+  transition: transform .2s;
+  border: 0.325vw solid #4e0f1c;
+  border-radius: 30%;
+}
+
+.none{
+  height: 3vw;
+  width: 3vw;
+}
+
+.imag:hover{
+  -ms-transform: scale(1.30);
+  -webkit-transform: scale(1.30);
+  transform: scale(1.30);
+}
